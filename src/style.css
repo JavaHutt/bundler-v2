@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'overtheseas';
+    src:  url('./overtheseas.ttf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
 .hello {
     color: Red;
+    font-family: 'overtheseas';
     background: url('./img.png');
 }
