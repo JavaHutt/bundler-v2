@@ -1,0 +1,24 @@
+{
+  "name": "webpack-guide",
+  "version": "1.0.0",
+  "description": "Webpack Guide from webpack.js.org",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "guide"
+  ],
+  "author": "Alex Karle",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "1.0.0",
+    "file-loader": "1.1.11",
+    "style-loader": "0.21.0",
+    "webpack": "4.16.4",
+    "webpack-cli": "3.1.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}
