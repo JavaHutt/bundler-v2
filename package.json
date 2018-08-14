@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Webpack Guide from webpack.js.org",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "watch": "webpack --watch"
   },
   "keywords": [
     "webpack",
@@ -20,6 +22,7 @@
     "style-loader": "0.21.0",
     "webpack": "4.16.4",
     "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5",
     "xml-loader": "1.2.1"
   },
   "dependencies": {
